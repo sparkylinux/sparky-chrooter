@@ -1,0 +1,25 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Chrooter Help
+Name[es_AR]=Ayuda de Chrooter
+Name[fr_FR]=Aide de Chrooter
+Name[ja_JP]=Chrooter ヘルプ
+Name[pl_PL]=Pomoc Chrootera
+Name[pt_BR]=Ajuda do Chrooter
+Name[pt_PT]=Chrooter Help
+GenericName=Chrooter Help
+Comment=Sparky Chrooter Quick Help
+Comment[es_AR]=Ayuda rápida para Sparky Chrooter
+Comment[fr_FR]=Aide rapide de Sparky Chrooter
+Comment[ja_JP]=Sparky Chrooter クイックヘルプ
+Comment[pl_PL]=Szybka Pomoc dla Sparky Chrooter
+Comment[pt_BR]=Ajuda rápida do Sparky Chrooter
+Comment[pt_PT]=Ajuda rápida do Sparky Chrooter
+Exec=/opt/sparky/sparky-chrooter-help
+Icon=help
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Applications;System;
+

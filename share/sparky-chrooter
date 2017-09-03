@@ -1,0 +1,1 @@
+?package(sparky-about):needs="X11" section="Applications/System"        title="Chrooter" command="remsu /usr/bin/sparky-chrooter" icon="utilities-terminal"

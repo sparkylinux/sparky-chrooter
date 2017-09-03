@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Created by Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/08/29
+# Last update 2016/06/11
+# Copyright 2015, 2016 Under the GNU GPL2 License
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-chrooter"
+if [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+else
+. $DEFLOCDIR/en
+fi
+
+DIALOG="yad --window-icon=utilities-terminal --width=650 --height=450 --center"
+TITLE="--always-print-result --dialog-sep --image=utilities-terminal --title="
+TEXT="--text="
+NOBUTTONS="--no-buttons"
+TITLETEXT="$LOCAL16"
+
+$DIALOG $TITLE"$TITLETEXT" $NOBUTTONS $TEXT\
+"$LOCAL17\n\n\
+$LOCAL18\n\
+$LOCAL19\n\
+$LOCAL20\n\n\
+$LOCAL21 passwd\n\
+$LOCAL22 passwd USERNAME\n\
+USERNAME $LOCAL23\n\n\
+$LOCAL24\n\n\
+$LOCAL25\n\n\
+<span font_weight='bold'>$LOCAL26</span>
+$LOCAL27\n\
+$LOCAL28\n\n\
+$LOCAL29"
+
+exit 0

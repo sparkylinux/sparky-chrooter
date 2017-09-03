@@ -1,0 +1,43 @@
+# Polish localization file for Sparky Chrooter.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
+# Under the GNU GPL v2
+# Last update 2015/11/13
+# Translated to Polish by pavroo
+
+LOCAL1="Partycje"
+LOCAL2="Rozmiar"
+LOCAL3="Tak"
+LOCAL4="Nie"
+LOCAL5="Zamknij"
+LOCAL6="Sparky Chrooter"
+LOCAL7="Sparky Chrooter działa tylko w trybie Live!\n\nZakończ teraz..."
+LOCAL8="Proszę wybrać partycję, do której chcesz się chrootować.\nMusi być to GŁÓWNA partycja z systemem plików właściwym dla systemu Linux. Następnie, będziesz mógł wybrać oddzielną partycję BOOT, jeśli taką posiadasz.\n\nPrzeczytaj Chrooter Help, umieszczony w podmenu Help, jeśli potrzebujesz więcej informacji o tej aplikacji."
+LOCAL9="Wyjście bez żadnych zmian"
+LOCAL10="Zakończ Chrooter teraz."
+LOCAL11="Czy posiadasz oddzielną partycję BOOT, która również powinna być zamontowana?"
+LOCAL12="Proszę wybrać partycję BOOT."
+LOCAL13="To nie jest partycja linuksowa.\n\nSpróbuj ponownie. Wyjście..."
+LOCAL14="To nie jest linuksowa partycja BOOT.\n\nSpróbuj ponownie. Wyjście..."
+LOCAL15="Trzymaj to okno otwarte, jeśli wciąż pracujesz w chrootowanym środowisku!\n\nZamknij kiedy skończysz, aby posprzątać po chrootowaniu!"
+LOCAL16="Sparky Chrooter Szybka Pomoc"
+LOCAL17="Sparky Chrooter jest skryptem, któru pozwana na chrootowanie (Eng: change root), czyli zmianę obecnego, głównego katalogu plików systemu Live na system plików dystrybucji Linux zainstalowanej na innym dysku."
+LOCAL18="Chrootowanie pozwala na naprawę uszkodzonej dystrybucji Linux, zmianę haseł użytkowników, naprawę uszkodzonych pakietów, etc. Upewnij się, iż wybierasz właściwą partycję, która zawiera główny system plików Linuksowej dystrybucji. Skrypt umożliwia również wybranie oddzielnej partycji BOOT, jeśli taką posiadasz na dysku."
+LOCAL19="System Live 32 bitowy umożliwia chrootowanie tylko do systemów 32 bitowych."
+LOCAL20="System Live 64 bitowy umożliwia chrootowanie do systemów 32 i 64 bitowych."
+LOCAL21="Aby zmienić hasło admistratora systemu w chrootowanym środowisku, użyj polecenia:"
+LOCAL22="Aby zmienić hasło użytkownika systemu w chrootowanym środowisku, użyj polecenia:"
+LOCAL23="jest nazwą istniejącego użytkownika w chrootowanym systemie na dysku."
+LOCAL24="Aby naprawić uszkodzone pakiety w dystrybucjach bazujących na Debian lub Ubuntu, w chrootowanym środowisku, użyj menadżera pakietów APT."
+LOCAL25="Aby naprawić uszkodzone pakiety w dystrybucjach Linux używających pakietów RPM, takich jak Fedora, Mageia, OpenMandrive, OpenSUSE, ROSA, w chrootowanym środowisku, użyj menadżera pakietów RPM, YUM lub Zypper."
+LOCAL26="Zrzeczenie się odpowiedzialności"
+LOCAL27="Sparky Chrooter działa tak jak działa. Ja, Autor nie daję żadnej gwarancji, że aplikacja będzie działała bez problemów. Używając Sparky Chrooter możesz uszkodzić swój system operacyjny."
+LOCAL28="UŻYWASZ SPARKY CHROOTER NA WŁASNE RYZYKO!"
+LOCAL29="Zapoznaj się również z Chroot Help, aby uzyskać informację o poleceniu chroot."
+
+### sparky-chrooter.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Chrooter
+# Comment[pl_PL]=Chrootowanie do systemu bazującego na Linuksie
+
+### sparky-chrooter-help.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Pomoc Chrootera
+# Comment[pl_PL]=Szybka Pomoc dla Sparky Chrooter

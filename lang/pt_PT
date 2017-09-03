@@ -1,0 +1,43 @@
+# Arquivo de localização para Portugues de Portugal do Sparky Chrooter
+# Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Sunday 31 January 00:54:25 WET 2016
+# Sob a Licença GNU GPL v2
+# Última atualização Sunday 31 January 00:54:25 WET 2016
+
+
+LOCAL1="Partições"
+LOCAL2="Tamanho"
+LOCAL3="Sim"
+LOCAL4="Não"
+LOCAL5="Fechar"
+LOCAL6="Sparky Chrooter"
+LOCAL7="Sparky Chrooter funciona apenas no ambiente do Live!\n\nSaindo agora..."
+LOCAL8="Por favor, selecione uma partição que deseja fazer a chroot.\nTem de ser uma partição ROOT válido com sistema de ficheiros Linux. Depois disso, pode escolher uma partição BOOT separados\n\nLeia o ficheiro de ajuda Chroot que é colocado no submenu Ajuda se necessitar de mais informações sobre a aplicação."
+LOCAL9="Sair sem alterações"
+LOCAL10="Sair da Chrooter agora."
+LOCAL11="Tem uma partição BOOT separada que deve ser montada também?"
+LOCAL12="Por favor, selecione a partição de BOOT."
+LOCAL13="Não é uma partição Linux.\n\nTente novamente. A Sair..."
+LOCAL14="Não é uma partição de boot do Linux.\n\nTente novamente. A Sair..."
+LOCAL15="Mantenha a janela aberta se ainda estiver a chroot!\n\nFeche-o quando tiver terminado o seu trabalho no ambiente chroot para limpar o depois!"
+LOCAL16="Ajuda rápida do Sparky Chrooter"
+LOCAL17="Sparky Chroot é um script que permite chroot (Ex.. modar o root) o diretório root atual do sistema Live para um diretório root de uma distribuição Linux instalado."
+LOCAL18="Chrooting permite corrigir uma distribuição Linux em mau funcionamento, alterar passwords de útilizadores, corrigir pacotes danificados, etc. Certifique-se escolha a partição correta que contém o sistema da sua distribuição Linux de fecheiros root. O script permite que você escolha uma partição boot separada também se tem no disco rígido."
+LOCAL19="O sistema de 32 bits Live deixa-o fazer chroot a apenas em sistemas de 32 bits."
+LOCAL20="O sistema de 64 bits Live deixa-o fazer chroot a 32 e sistemas de 64 bits."
+LOCAL21="Para alterar passwords root (administrador) no ambiente chroot, execute o comando:"
+LOCAL22="Para alterar a password do utilizador no ambiente chroot, execute o comando:"
+LOCAL23="é um Nome de utilizador válido que já existe no sistema do disco rígido chroot."
+LOCAL24="Para corrigir os pacotes em mau funcionamento em distribuições Linux baseados em Debian e Ubuntu, no ambiente chroot, basta executar o gestor de pacotes APT."
+LOCAL25="Para corrigir os pacotes em mau funcionamento em distribuições Linux baseadas em RPM, como o Fedora, Mageia, OpenMandriva, OpenSUSE, ROSA, no ambiente chroot, basta executar o RPM, YUM ou Zypper gestor de pacotes."
+LOCAL26="Aviso Legal"
+LOCAL27="Funciona, se tem certeza eu, o autor, não damos nenhuma garantia de que o aplicativo funcionará sem problemas. Usando Sparky Chrooter pode danificar o seu sistema operacional."
+LOCAL28="ESTÁ A UTILIZAR SPARKY CHROOTER EM SEU PRÓPRIO RISCO!"
+LOCAL29="Verificar a opção Chroot da Ajuda para obter informações sobre o comando chroot."
+
+### Arquivo a ser traduzido também sparky-chrooter.desktop 
+# Name[pt_PT]=Chrooter
+# Comment[pt_PT]=Chroot para um sistema baseado em Linux
+
+### Arquivo a ser traduzido também sparky-chrooter-help.desktop 
+# Name[pt_PT]=Chrooter Help
+# Comment[pt_PT]=Ajuda rápida do Sparky Chrooter

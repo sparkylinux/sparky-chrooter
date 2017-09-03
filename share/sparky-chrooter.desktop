@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Chrooter
+GenericName=Chrooter
+Comment=Chroot to a Linux based system
+Comment[es_AR]=Aplica «chroot» a un sistema basado en Linux
+Comment[fr_FR]=Chroot dans un système de type Linux
+Comment[it_IT]=Lancia Chroot su un sistema Linux
+Comment[ja_JP]=Linux ベースシステムへ chroot します
+Comment[pl_PL]=Chrootowanie do systemu bazującego na Linuksie
+Comment[pt_BR]=Aplica o «chroot» em um sistema baseado em Linux
+Comment[pt_PT]=Chroot para um sistema baseado em Linux
+Exec=remsu /usr/bin/sparky-chrooter
+Icon=utilities-terminal
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Applications;System;
+

@@ -1,0 +1,43 @@
+# Japanese localization file for Sparky Chrooter
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
+# Under the GNU GPL v2
+# Last update 2015/12/23
+# Translated to Japanese by BALLOON a.k.a. Fu-sen.
+
+LOCAL1="パーティション"
+LOCAL2="サイズ"
+LOCAL3="はい"
+LOCAL4="いえ"
+LOCAL5="閉じる"
+LOCAL6="Sparky Chrooter"
+LOCAL7="Sparky Chrooter はライブ環境のみで動作します！\n\n終了します..."
+LOCAL8="chroot を行うパーティションを選択してください。\nLinux のファイルシステムで有効な rootパーティションにする必要があります。別途 boot パーティションがある場合、それを選択することができます。\n\nアプリケーションの詳細情報が必要な場合はヘルプサブメニューに配置されているヘルプの Chrooter ファイルをお読み下さい。"
+LOCAL9="変更せずに終了"
+LOCAL10="Chrooter を終了する"
+LOCAL11="分離した boot パーティションをマウントしますか？"
+LOCAL12="boot パーティションを選択して下さい。"
+LOCAL13="これは Linux パーティションではありません。\n\n再度行って下さい。終了します..."
+LOCAL14="これは Linux boot パーティションではありません。\n\n再度行って下さい。終了します..."
+LOCAL15="chroot していたい場合、ウィンドウは開いたままにして下さい！\n\n作業が完了したら、その後クリーンアップするため chroot 環境のウインドウを閉じて下さい！"
+LOCAL16="Sparky Chrooter クイックヘルプ"
+LOCAL17="Sparky Chrooter はインストールされている Linux ディストリビューションのルートディレクトリにライブシステムで chroot（root の変更）し、ルートディレクトリとして作業する事ができるスクリプトです。"
+LOCAL18="chroot によって、パッケージを修正したり、ユーザーのパスワードを変更する事で、壊れた Linux ディストリビューションを修正することができます。 お使いの Linux ディストリビューションのルートファイルシステムが含まれるパーティションを選択するようにしてください。分離された boot パーティションをハードドライブにそれを持っている場合、スクリプトはそれを選択することができます。"
+LOCAL19="32 ビットライブシステムは 32 ビットシステムのみが chroot できます。"
+LOCAL20="64 ビットライブシステムは 32・64 ビットシステムが chroot できあｍす。"
+LOCAL21="chroot 環境で root (管理者) パスワードを変更する場合は、次のコマンドを実行します:"
+LOCAL22="chroot 環境でユーザーパスワードを変更する場合は、次のコマンドを実行します:"
+LOCAL23="chroot のハードドライブシステムに存在する正当なユーザー名です。"
+LOCAL24="Debian・Ubuntu ベース Linux ディストリビューションで壊れたパッケージを chroot 環境で修正するには APT パッケージマネージャを実行します。"
+LOCAL25="Fedora、Mageia、OpenMandrive、openSUSE、ROSA など RPM ベース Linux ディストリビューションの壊れたパッケージを chroot 環境で修正するには、RPM、YUM、zypper パッケージマネージャを実行します。"
+LOCAL26="免責事項"
+LOCAL27="Sparky Chrooter の使用によってお使いのオペーティングシステムに損傷を与える事ができます。それはので、製作者はアプリケーションが問題なく動作する保証を行っていない事を確認して下さい。"
+LOCAL28="自身のリスクで Sparky Chrooter を使用して下さい！"
+LOCAL29="chroot コマンドに関する情報を取得するには、ヘルプの chroot オプションを確認して下さい。"
+
+### sparky-chrooter.desktop file to be translated too
+# Name[ja_JP]=Chrooter
+# Comment[ja_JP]=Linux ベースシステムへ chroot します
+
+### sparky-chrooter-help.desktop file to be translated too
+# Name[ja_JP]=Chrooter ヘルプ
+# Comment[ja_JP]=Sparky Chrooter クイックヘルプ

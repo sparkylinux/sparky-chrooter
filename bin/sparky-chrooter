@@ -1,0 +1,168 @@
+#!/bin/bash
+
+# Created by Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/08/29
+# Last update 2016/11/27
+# Copyright 2015, 2016 Under the GNU GPL2 License
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-chrooter"
+if [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+else
+. $DEFLOCDIR/en
+fi
+
+testroot="`whoami`"
+
+if [ "$testroot" != "root" ]; then
+    /usr/bin/remsu $0 &
+fi
+
+DIALOG45="yad --window-icon=utilities-terminal --width=450 --height=400 --center"
+DIALOG="yad --window-icon=utilities-terminal --width=350 --height=150 --center"
+TITLE="--always-print-result --dialog-sep --image=utilities-terminal --title="
+TEXT="--text="
+MENU="--list --column=$LOCAL1 --column=$LOCAL2"
+YESNO=" --button=$LOCAL3:0 --button=$LOCAL4:1 "
+MSGBOX=" --button=Ok:0 "
+CLOSE=" --button=$LOCAL5:0 "
+TITLETEXT="$LOCAL6"
+if [ -f /opt/sparky/sparky-xterm ]; then
+. /opt/sparky/sparky-xterm
+else
+SPARKYXTERM="x-terminal-emulator"
+fi
+
+# if not Live system just quit, don't launch the application
+TESTMODE=`grep "1000" /etc/passwd | grep -v "Live"`
+
+if [ "$TESTMODE" != "" ]; then
+    $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL7"
+    exit 0
+fi
+
+# choose root partition
+PARTITIONS=`cat /proc/partitions | grep -v "loop" | grep -v "sr0" | awk '{print $4}' | grep "[0-9]"`
+PARTTMP=`echo $PARTITIONS`
+for i in $PARTINST; do
+	tempsize=`grep -m 1 "$i" /proc/partitions | awk '{print $3}'`
+	if [ "$tempsize" = "1" ]; then
+		PARTTMP=`echo $PARTTMP | sed -r "s/$i//"`
+	fi
+done
+
+for i in $PARTTMP; do
+	part="$i"
+	partsize=`grep -m 1 "$i" /proc/partitions | awk '{print $3}'`
+	partmenu="$partmenu $part $partsize"
+done
+
+TARGETPART=""
+while [ "$TARGETPART" = "" ]
+do
+	TARGETPART=`$DIALOG45 $TITLE"$TITLETEXT" $MSGBOX $MENU $TEXT"$LOCAL8" \
+	$partmenu \
+	Exit "$LOCAL9"`
+done
+
+TARGETPART=`echo $TARGETPART | cut -d "|" -f 1`
+
+if [ "$TARGETPART" = "Exit" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL10"
+	exit 0
+fi
+
+# choose /boot partition if separated
+$DIALOG $TITLE"$TITLETEXT" $YESNO $TEXT"$LOCAL11"
+
+if [ $? = 0 ]; then
+
+	BOOTTMP=`echo $PARTTMP | sed -r "s/$TARGETPART//"`
+	for i in $BOOTTMP; do
+		bootpart="$i"
+		bootpartsize=`grep -m 1 "$i" /proc/partitions | awk '{print $3}'`
+		bootpartmenu="$bootpartmenu $bootpart $bootpartsize"
+	done
+
+	BOOTPART=""
+	while [ "$BOOTPART" = "" ]
+	do
+		BOOTPART=`$DIALOG45 $TITLE"$TITLETEXT" $MENU $TEXT"$LOCAL12" \
+		$bootpartmenu`
+	done
+
+	BOOTPART=`echo $BOOTPART | cut -d "|" -f 1`
+
+	else
+	BOOTPART=""
+
+fi
+
+# mount partitions
+mount /dev/$TARGETPART /mnt -o rw
+
+# check is a Linux root partition
+if [ ! -f /mnt/etc/resolv.conf ] && [ ! -d /mnt/usr ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL13"
+	umount -f -l /mnt
+	exit 0
+fi
+
+if [ "$BOOTPART" != "" ]; then
+	mount /dev/$BOOTPART /mnt/boot -o rw
+
+	# check is a boot partition
+	if [ ! -d /mnt/boot/grub ]; then
+		$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL14"
+		umount -f -l /mnt/boot
+		umount -f -l /mnt
+		exit 0
+	fi
+fi
+
+# mount other partitions
+if [ -f /mnt/etc/hosts ]; then
+	mv /mnt/etc/hosts /mnt/etc/hosts.bak
+fi
+cp /etc/hosts /mnt/etc/hosts
+
+if [ -f /mnt/etc/resolv.conf ]; then
+	rm -f /mnt/etc/resolv.conf
+fi
+cp /etc/resolv.conf /mnt/etc/resolv.conf
+
+mount -o bind /dev /mnt/dev
+mount -o bind /proc /mnt/proc
+mount -o bind /sys /mnt/sys
+mount -o bind /tmp /mnt/tmp
+
+# chroot
+$SPARKYXTERM -e "chroot /mnt /bin/bash"
+sleep 1
+
+# keep the window open until finishing your job in chrooted environment
+$DIALOG $TITLE"$TITLETEXT" $CLOSE $TEXT"$LOCAL15"
+if [ $? = 0 ]; then
+
+	# Cleaning after chrooting
+	if [ -f /etc/hosts.bak ] && [ -f /etc/hosts ]; then
+		mv /etc/hosts.bak /etc/hosts
+	fi
+	rm -f /etc/resolv.conf
+	umount -R /mnt
+	exit 0
+fi
+
+exit 0

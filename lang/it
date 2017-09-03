@@ -1,0 +1,42 @@
+# File di localizzazione italiano per Sparky Chrooter
+# Copyright 2015 Carlo Troiani <troianicarlo@gmail.com> 13/11/2015
+# Rilasciato sotto licenza GNU GPL v2
+# Ultimo aggiornamento 03/12/2015
+
+LOCAL1="Partizioni"
+LOCAL2="Dimensioni"
+LOCAL3="Sì"
+LOCAL4="No"
+LOCAL5="Chiudi"
+LOCAL6="Sparky Chrooter"
+LOCAL7="Sparky Chrooter funziona solo da live!\n\nSto uscendo..."
+LOCAL8="Prego, seleziona la partizione su cui vuoi effettuare il chroot.\nIDeve essere una partizione ROOT valida, con file system Linux. Dopo che hai selezionata la partizione di root, se presente, puoi scegliere la partizione di BOOT.\n\nLeggi il file Help di Chrooter che è  raggiungibile dal sottomenu Help se hai bisogno di più informazioni sull'applicazione."
+LOCAL9="Esci senza fare nulla"
+LOCAL10="Sto uscendo da Chrooter adesso."
+LOCAL11="C'è una partizione di BOOT separata da quella di Root che vuoi montare?"
+LOCAL12="Prego, seleziona la partizione di BOOT."
+LOCAL13="Non è una partizione Linux.\n\nProva di nuovo. Sto uscendo..."
+LOCAL14="Non è una partizione di Boot di Linux.\n\nProva di nuovo. Sto uscendo..."
+LOCAL15="Tieni questa finestra aperta fintanto che stai utilizzando chroot!\n\nChiudila quando hai finito di utilizzare il chroot nella partizione prescelta per pulire l'ambiente di lavoro!"
+LOCAL16="Sparky Chrooter Quick Help"
+LOCAL17="Sparky Chrooter è uno script che permette di lanciare chroot (Eng. change root) dalla cartella root del sistema live alla partizione di root di una distribuzione Linux installata."
+LOCAL18="Effettuare chroot permette di riparare una distribuzione Linux che si sia danneggiata,  cambiare la password degli utenti, riparare pacchetti non installati correttamente, ecc. Assicurati di scegliere la partizione che contiene il file system root della tua distribuzione Linux. lo script, inoltre, permette di scegliere, se presente sull'hard disk, una partizione di BOOT separata da quella di Root."
+LOCAL19="Il sistema live a 32 bit permette di effettuare chroot solo su sistemi a 32 bit."
+LOCAL20="Il sistema live a 64 bit permette di effettuare chroot su sistemi a 32 e 64 bit."
+LOCAL21="Per cambiare la password di root (amministratore) nel sistema sotto chroot, lancia il comando:"
+LOCAL22="Per cambiare la password di un utente nel sistema sotto chroot, lancia il comando:"
+LOCAL23="è un nome utente valido che esiste nel sistema sottoposto a chroot."
+LOCAL24="Per riparare pacchetti danneggiati su distribuzioni Linux basate su Debian od Ubuntu, nell'mabiente sottoposto a chroot, basta lanciare il gestore di pacchetti APT."
+LOCAL25="Per riparare pacchetti danneggiati su distribuzioni Linux che utilizzano il sistema di pacchetti RPM, come Fedora, Mageia, OpenMandrive, OpenSUSE, ROSA, ecc; nell'mabiente sottoposto a chroot, basta lanciare il gestore di pacchetti della distribuzione (RPM, YUM o Zypper)."
+LOCAL26="Avvertenze"
+LOCAL27="Funziona come funziona, quindi siate consci che io, l'autore, non fornisco alcuna garanzia che l'applicazione funzioni senza problemi. Usare Sparky Chrooter può danneggiare il sistema operativo."
+LOCAL28="STAI UTILIZZANDO SPARKY CHROOTER A TUO RISCHIO E PERICOLO!"
+LOCAL29="Controlla l'opzione Help di Chroot per ricevere informazioni anche sul comando chroot."
+
+### sparky-chrooter.desktop file to be translated too
+# Name[it_IT]=Chrooter
+# Comment[it_IT]=Lancia Chroot su un sistema Linux
+
+### sparky-chrooter-help.desktop file to be translated too
+# Name[it_IT]=Chrooter Help
+# Comment[it_IT]=Sparky Chrooter Quick Help
