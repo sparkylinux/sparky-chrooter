@@ -1,7 +1,7 @@
 Sparky Chrooter
 Sparky Chrooter is a script which lets you chroot (change root) the current root directory of the Live system to a root directory of an installed Linux distribution on a hard drive.
 
-Copyright (C) 2015-2017 Paweł Pijanowski
+Copyright (C) 2015-2018 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@ gawk
 grep
 mount
 sed
-sparky-xterm
+sparky-xterm (>= 0.2.0)
 sparky-remsu
 yad
 
