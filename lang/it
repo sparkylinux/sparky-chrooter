@@ -1,8 +1,7 @@
 # File di localizzazione italiano per Sparky Chrooter
 # Copyright 2015 Carlo Troiani <troianicarlo@gmail.com> 13/11/2015
 # Rilasciato sotto licenza GNU GPL v2
-# Ultimo aggiornamento 03/12/2015
-
+# Last update 2018/08/04 by pavroo
 LOCAL1="Partizioni"
 LOCAL2="Dimensioni"
 LOCAL3="Sì"
@@ -32,11 +31,9 @@ LOCAL26="Avvertenze"
 LOCAL27="Funziona come funziona, quindi siate consci che io, l'autore, non fornisco alcuna garanzia che l'applicazione funzioni senza problemi. Usare Sparky Chrooter può danneggiare il sistema operativo."
 LOCAL28="STAI UTILIZZANDO SPARKY CHROOTER A TUO RISCHIO E PERICOLO!"
 LOCAL29="Controlla l'opzione Help di Chroot per ricevere informazioni anche sul comando chroot."
-
 ### sparky-chrooter.desktop file to be translated too
 # Name[it_IT]=Chrooter
 # Comment[it_IT]=Lancia Chroot su un sistema Linux
-
 ### sparky-chrooter-help.desktop file to be translated too
 # Name[it_IT]=Chrooter Help
 # Comment[it_IT]=Sparky Chrooter Quick Help

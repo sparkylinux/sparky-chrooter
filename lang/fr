@@ -1,8 +1,7 @@
 ﻿# Fichier de localisation française de Sparky Chrooter
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Dernière mise à jour 2016/06/05
-
+# Last update 2018/08/04 by pavroo
 LOCAL1="Partitions"
 LOCAL2="Taille"
 LOCAL3="Oui"
@@ -32,11 +31,9 @@ LOCAL26="Exonération"
 LOCAL27="Ceci fonctionne comme cela peut, donc soyez conscient que l'auteur ne donne aucune garantie que l'application fonctionne sans problème. Utiliser Sparky Chrooter peut endommager votre système d'exploitation."
 LOCAL28="VOUS UTILISEZ SPARKY CHROOTER A VOS PROPRES RISQUES!"
 LOCAL29="Vérifiez les options de l'aide de Chroot pour obtenir plus d'information sur cette commande."
-
 ### sparky-chrooter.desktop file to be translated too
 # Name[fr_FR]=Chrooter
 # Comment[fr_FR]=Chroot dans un système de type Linux
-
 ### sparky-chrooter-help.desktop file to be translated too
 # Name[fr_FR]=Aide de Chrooter
 # Comment[fr_FR]=Aide rapide de Sparky Chrooter

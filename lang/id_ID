@@ -1,0 +1,40 @@
+# Indonesian localization file for Sparky Chrooter
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
+# Under the GNU GPL v2
+# Last update 2018/08/04 by pavroo
+# Translated to Indonesian by les kompie
+LOCAL1="Partisi"
+LOCAL2="Ukuran"
+LOCAL3="Ya"
+LOCAL4="Tidak"
+LOCAL5="Tutup"
+LOCAL6="Sparky Chrooter"
+LOCAL7="Sparky Chrooter hanya berfungsi di lingkungan Live!\n\nSekarang keluar..."
+LOCAL8="Pilih partisi yang ingin anda chroot.\nItu harus partisi ROOT valid dengan file system Linux. Sesudah itu, anda bisa memilih partisi BOOT terpisah juga, jika anda punya.\n\nBaca berkas bantuan Chrooter yang ada di submenu Help, jika anda memerlukan informasi lebih lanjut tentang aplikasi ini."
+LOCAL9="Keluar TANPA perubahan"
+LOCAL10="Sekarang keluar dari Chrooter."
+LOCAL11="Apakah anda punya partisi BOOT terpisah yang harus di-mount juga?"
+LOCAL12="Pilih partisi BOOT."
+LOCAL13="Ini bukan partisi Linux.\n\nCoba lagi. Keluar..."
+LOCAL14="Ini bukan partisi boot Linux.\n\nCoba lagi. Keluar..."
+LOCAL15="Tetap buka window jika anda masih sedang pakai chroot!\n\nTutup window saat pekerjaan anda di lingkungan chroot sudah selesai, untuk membersihkannya!"
+LOCAL16="Bantuan singkat Sparky Chrooter"
+LOCAL17="Sparky Chrooter adalah skrip yang membantu anda chroot (change root) direktori root saat ini dari sistem Live, ke direktori root dari distribusi Linux yang di-instal."
+LOCAL18="Pemakaian chroot membantu anda memperbaiki distribusi Linux yang rusak, mengubah password user, memperbaiki paket yang rusak, dll. Pastikan anda memilih partisi yang tepat yang berisi file system root dari distribusi Linux anda. Skrip ini membantu anda memilih partisi BOOT yang terpisah juga, jika ada di hard drive. "
+LOCAL19="Sistem Live 32 bit membantu anda melakukan chroot ke sistem 32 bit saja."
+LOCAL20="Sistem Live 64 bit membantu anda melakukan chroot ke sistem 32 dan 64 bit."
+LOCAL21="Untuk mengubah password root (admin) di lingkungan chroot, jalankan perintah:"
+LOCAL22="Untuk mengubah password user di lingkungan chroot, jalankan perintah:"
+LOCAL23="adalah nama user yang valid, yang ada di sistem hard drive yang di-chroot."
+LOCAL24="Untuk memperbaiki paket rusak di distribusi Linux berbasis Debian dan Ubuntu, di lingkungan chroot, jalankan saja package manager APT."
+LOCAL25="Untuk memperbaiki paket rusak di distribusi Linux berbasis RPM, seperti Fedora, Mageia, OpenMandriva, OpenSUSE, ROSA, di lingkungan chroot, jalankan saja package manager RPM, YUM atau Zypper."
+LOCAL26="Disklaimer"
+LOCAL27="Aplikasi ini bekerja sebagaimana adanya, sehingga saya sebagai pencipta, tidak memberikan jaminan apapun bahwa aplikasi ini akan bekerja tanpa masalah. Menggunakan Sparky Chrooter bisa saja merusak sistem operasi anda."
+LOCAL28="Anda menggunakan Sparky Chrooter dengan RISIKO ANDA TANGGUNG SENDIRI!"
+LOCAL29="Periksa pilihan Bantuan Chroot untuk mendapatkan informasi tentang perintah chroot."
+### sparky-chrooter.desktop file to be translated too
+# Name[id_ID]=Chrooter
+# Comment[id_ID]=Chroot ke sistem berbasis Linux
+### sparky-chrooter-help.desktop file to be translated too
+# Name[id_ID]=Bantuan Chrooter
+# Comment[id_ID]=Bantuan Cepat Chrooter Sparky

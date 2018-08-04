@@ -1,9 +1,8 @@
 # Japanese localization file for Sparky Chrooter
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
 # Under the GNU GPL v2
-# Last update 2015/12/23
+# Last update 2018/08/04 by pavroo
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-
 LOCAL1="パーティション"
 LOCAL2="サイズ"
 LOCAL3="はい"
@@ -33,11 +32,9 @@ LOCAL26="免責事項"
 LOCAL27="Sparky Chrooter の使用によってお使いのオペーティングシステムに損傷を与える事ができます。それはので、製作者はアプリケーションが問題なく動作する保証を行っていない事を確認して下さい。"
 LOCAL28="自身のリスクで Sparky Chrooter を使用して下さい！"
 LOCAL29="chroot コマンドに関する情報を取得するには、ヘルプの chroot オプションを確認して下さい。"
-
 ### sparky-chrooter.desktop file to be translated too
 # Name[ja_JP]=Chrooter
 # Comment[ja_JP]=Linux ベースシステムへ chroot します
-
 ### sparky-chrooter-help.desktop file to be translated too
 # Name[ja_JP]=Chrooter ヘルプ
 # Comment[ja_JP]=Sparky Chrooter クイックヘルプ

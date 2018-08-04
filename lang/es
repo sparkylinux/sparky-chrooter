@@ -1,8 +1,7 @@
 # Archivo de localización en español para Sparky Chrooter
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
 # Bajo la licencia GNU GPL v2
-# Ultima actualización 2016/01/13
-
+# Last update 2018/08/04 by pavroo
 LOCAL1="Particiones"
 LOCAL2="Tamaño"
 LOCAL3="Si"
@@ -32,11 +31,9 @@ LOCAL26="Renuncia"
 LOCAL27="Funciona como funciona. Por lo tanto tenga presente que yo, el autor, no doy ninguna garantía de que la aplicación vaya a funcionar sin problemas. Usar Sparky Chrooter puede dañar su sistema operativo."
 LOCAL28="¡UD ESTA USANDO SPARKY CHROOTER BAJO SU PROPIO RIESGO!"
 LOCAL29="Verifique las opciones de la ayuda de «chroot» para obtener más información acerca del comando «chroot»."
-
 ### sparky-chrooter.desktop file to be translated too
 # Name[es_AR]=Chrooter
 # Comment[es_AR]=Aplica «chroot» a un sistema basado en Linux
-
 ### sparky-chrooter-help.desktop file to be translated too
 # Name[es_AR]=Ayuda de Chrooter
 # Comment[es_AR]=Ayuda rápida para Sparky Chrooter

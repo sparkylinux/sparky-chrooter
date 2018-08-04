@@ -1,9 +1,8 @@
 # Polish localization file for Sparky Chrooter.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
 # Under the GNU GPL v2
-# Last update 2015/11/13
+# Last update 2018/08/04 by pavroo
 # Translated to Polish by pavroo
-
 LOCAL1="Partycje"
 LOCAL2="Rozmiar"
 LOCAL3="Tak"
@@ -33,11 +32,9 @@ LOCAL26="Zrzeczenie się odpowiedzialności"
 LOCAL27="Sparky Chrooter działa tak jak działa. Ja, Autor nie daję żadnej gwarancji, że aplikacja będzie działała bez problemów. Używając Sparky Chrooter możesz uszkodzić swój system operacyjny."
 LOCAL28="UŻYWASZ SPARKY CHROOTER NA WŁASNE RYZYKO!"
 LOCAL29="Zapoznaj się również z Chroot Help, aby uzyskać informację o poleceniu chroot."
-
 ### sparky-chrooter.desktop file, również do przetłumaczenia
 # Name[pl_PL]=Chrooter
 # Comment[pl_PL]=Chrootowanie do systemu bazującego na Linuksie
-
 ### sparky-chrooter-help.desktop file, również do przetłumaczenia
 # Name[pl_PL]=Pomoc Chrootera
 # Comment[pl_PL]=Szybka Pomoc dla Sparky Chrooter

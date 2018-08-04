@@ -2,8 +2,7 @@
 # Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
 # Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 20/01/2016
 # Sob a Licença GNU GPL v2
-# Última atualização 28/01/2016
-
+# Last update 2018/08/04 by pavroo
 LOCAL1="Partições"
 LOCAL2="Tamanho"
 LOCAL3="Sim"
@@ -36,11 +35,9 @@ certo do queres fazer, o autor não dá nenhuma garantia de que esta aplicação
 LOCAL28="VOCE ESTÁ USANDO O SPARKY CHROOTER SOB SUA PRÓPRIA RESPONSABILIDADE E RISCO!"
 LOCAL29="Verifique as opções de ajuda do  Chroot 
 para pegar mais informações sobre o  comando «chroot»."
-
 ### sparky-chrooter.desktop file to be translated too
 # Name[pt_BR]=Chrooter
 # Comment[pt_BR]=Aplica o «chroot» em um sistema baseado em Linux
-
 ### sparky-chrooter-help.desktop file to be translated too
 # Name[pt_BR]=Ajuda do Chrooter
 # Comment[pt_BR]=Ajuda rápida do Sparky Chrooter
