@@ -18,6 +18,7 @@ Comment[ja]=Sparky Chrooter クイックヘルプ
 Comment[pl]=Szybka Pomoc dla Sparky Chrooter
 Comment[pt_BR]=Ajuda rápida do Sparky Chrooter
 Comment[pt_PT]=Ajuda rápida do Sparky Chrooter
+Comment[ru]=Sparky Chrooter Быстрая Помощь
 Exec=/opt/sparky/sparky-chrooter-help
 Icon=help
 Terminal=false

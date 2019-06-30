@@ -12,6 +12,7 @@ Comment[ja]=Linux ベースシステムへ chroot します
 Comment[pl]=Chrootowanie do systemu bazującego na Linuksie
 Comment[pt_BR]=Aplica o «chroot» em um sistema baseado em Linux
 Comment[pt_PT]=Chroot para um sistema baseado em Linux
+Comment[ru]=Chroot к системам на основе Linux
 Exec=remsu /usr/bin/sparky-chrooter
 Icon=utilities-terminal
 Terminal=false
