@@ -1,0 +1,39 @@
+# Hungarian localization file for Sparky Chrooter (Translated by Nemomen)
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
+# Under the GNU GPL v2
+# Last update 2019/09/29 by pavroo
+LOCAL1="Partíciók"
+LOCAL2="Méret"
+LOCAL3="Igen"
+LOCAL4="Nem"
+LOCAL5="Bezárás"
+LOCAL6="Sparky Chrooter"
+LOCAL7="A Sparky Chrooter csak „Élő” környezetben működik!\n\nKilépés most..."
+LOCAL8="Kérjük, válasszon partíciót, ahová chroot-olni akar\namelynek érvényes ROOT Linux fájlrendszer partíciónak kell lennie. Ezután választani tud önálló BOOT partíciót is, ha van ilyenje.\n\nOlvassa el a Súgó Chrooter fájlt, amelyik a Súgó almenüben található, ha erről az alkalmazásról több információra van szüksége.
+LOCAL9="Kilépés változások NÉLKÜL"
+LOCAL10="Chrooter elhagyása most."
+LOCAL11="Rendelkezik önálló BOOT partícióval, amelyikre csatlakoznia kell?"
+LOCAL12="Kérjük, válassza a BOOT partíciót!"
+LOCAL13="Ez nem Linux partíció.\n\nPróbálja meg újra! Kilépés...”
+LOCAL14="Ez nem Linux boot partíció.\n\nPróbálja újra! Kilépés..."
+LOCAL15="Hagyja nyitva az ablakot, ha éppen chrootol!\nZárja be, amikor végzett a munkájával a chrootolt környezetben a kitisztításhoz!”
+LOCAL16="Sparky Chrooter Gyors-súgó (Quick Help)"
+LOCAL17="A Sparky Chrooter egy parancs (script), amelyik lehetővé teszi Önnek a chrootolást (root-cserét) az Élő-rendszer aktuális gyökér-könyvtárában a telepített Linux disztribúció root-könyvtárába.
+LOCAL18="A chrootolás lehetővé teszi Önnek hibás Linux disztribúció, törött csomagok javítását, jelszó-cserét, stb. Legyen biztos abban, hogy a helyes partíciót választotta ki, amelyik az Ön Linux disztribúciója root fájlrendszerét tartalmazza. A parancs (script) lehetővé teszi Önnek önálló BOOT partíció kiválasztását, ha rendelkezik ilyennel a merevlemezen.
+LOCAL19="A 32 bites Élő rendszer (Live system) csak 32 bites rendszereken teszi Önnek lehetővé a chrootolást!"
+LOCAL20="64 bites Élő rendszeren (Live system) a chrootolás mind 32 mind 64 bites rendszereken lehetséges."
+LOCAL21="Root (admin) jelszó cseréjéhez chroot környezetben futtassa a parancsot:
+LOCAL22="Felhasználó jelszó cseréjéhez chroot környezetben futtassa a parancsot:
+LOCAL23="érvényes felhasználónévvel,amelyik létezik a chrootolt merevlemez rendszerben.
+LOCAL24="Törött csomagok javításához Debian és Ubuntu alapú Linux disztribúciók esetében, chroot környezetben, egyszerűen futtassa az APT csomag kezelőt!
+LOCAL25="Törött csomagok javításához RPM alapú Linux disztribúciók esetében, amilyen a Fedora, Mageia, OpenMandrive, OpenSUSE, ROSA,  chroot környezetben, egyszerűen futtassa az RPM, YUM vagy Zypper csomag kezelőt!
+LOCAL26="Jogi nyilatkozat/korlátozott jogi nyilatkozat"
+LOCAL27="Ez „ahogy-van” működik, legyen biztos benne, hogy én, a szerző, nem adok semmiféle garanciát, hogy az alkalmazás problémák nélkül fog működni. A Sparky Chrooter használata tönkre tudja tenni az Ön operációs rendszerét!
+LOCAL28="ÖN A SPARKY CHROOTER-T SAJÁT KOCKÁZATÁRA HASZNÁLJA!
+LOCAL29="Ellenőrizze a Súgóban a Chroot opciót, hogy a chroot parancsról információt kapjon!
+### sparky-chrooter.desktop file to be translated too
+# Name[en_US]=Chrooter
+# Comment[en_US]=Chroot to a Linux based system
+### sparky-chrooter-help.desktop file to be translated too
+# Name[en_US]=Chrooter Help
+# Comment[en_US]=Sparky Chrooter Quick Help
