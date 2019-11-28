@@ -4,6 +4,7 @@ Encoding=UTF-8
 Name=Chrooter
 GenericName=Chrooter
 Comment=Chroot to a Linux based system
+Comment[el]=Κάντε Chroot σε ένα σύστημα βασισμένο στο Linux
 Comment[es]=Aplica «chroot» a un sistema basado en Linux
 Comment[fr]=Chroot dans un système de type Linux
 Comment[id]=Chroot ke sistem berbasis Linux

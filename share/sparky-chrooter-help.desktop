@@ -2,6 +2,7 @@
 Version=1.0
 Encoding=UTF-8
 Name=Chrooter Help
+Name[el]=Βοήθεια για το Chrooter
 Name[es]=Ayuda de Chrooter
 Name[fr]=Aide de Chrooter
 Name[id]=Bantuan Chrooter
@@ -11,6 +12,7 @@ Name[pt_BR]=Ajuda do Chrooter
 Name[pt_PT]=Chrooter Help
 GenericName=Chrooter Help
 Comment=Sparky Chrooter Quick Help
+Comment[el]=Γρήγορη βοήθεια για το Sparky Chrooter
 Comment[es]=Ayuda rápida para Sparky Chrooter
 Comment[fr]=Aide rapide de Sparky Chrooter
 Comment[id]=Bantuan Cepat Chrooter Sparky
