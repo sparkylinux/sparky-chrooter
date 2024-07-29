@@ -1,0 +1,39 @@
+# Suomenkielinen lokalisointitiedosto Sparky Chrooterille
+# Tekijänoikeus 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
+# GNU GPL v2:n alla
+# Viimeisin päivitys 2018/08/04 pavroo
+LOCAL1="Osiot"
+LOCAL2="Koko"
+LOCAL3="Kyllä"
+LOCAL4="Ei"
+LOCAL5="Sulje"
+LOCAL6="Sparky Chrooter"
+LOCAL7="Sparky Chrooter toimii vain live-ympäristössä!\n\nPoistutaan nyt..."
+LOCAL8="Valitse osio, johon haluat chrootta.\nSen on oltava voimassa oleva ROOT-osio Linux-tiedostojärjestelmällä. Sen jälkeen voit valita myös erillisen BOOT-osion, jos sinulla on sellainen.\n\nLue ohjeen Chrooter-tiedosto joka sijoitetaan Ohje-alivalikkoon, jos tarvitset lisätietoja sovelluksesta."
+LOCAL9="Poistu ilman muutoksia"
+LOCAL10="Poistutaan Chrooterista."
+LOCAL11="Onko sinulla erillinen BOOT-osio, joka on myös liitettävä?"
+LOCAL12="Valitse BOOT-osio."
+LOCAL13="Se ei ole Linux-osio.\n\nYritä uudelleen. Poistutaan..."
+LOCAL14="Se ei ole Linuxin käynnistysosio.\n\nYritä uudelleen. Poistutaan..."
+LOCAL15="Pidä ikkuna auki, jos olet vielä chrootissa!\n\nSulje se, kun olet lopettanut työsi chrootoidussa ympäristössä puhdistaaksesi sen jälkeen!"
+LOCAL16="Sparky Chrooter -pika-apu"
+LOCAL17="Sparky Chrooter on skripti, jonka avulla voit chroot-roota (suomi vaihtaa juuri) Live-järjestelmän nykyisen juurihakemiston asennetun Linux-jakelun juurihakemistoon."
+LOCAL18="Chrootuksella voit korjata rikkinäisen Linux-jakelun, vaihtaa käyttäjien salasanoja, korjata rikkinäisiä paketteja jne. Varmista, että valitset oikean osion, joka sisältää Linux-jakelun juuritiedostojärjestelmän. Skriptin avulla voit valita myös erillisen BOOT-osion jos sinulla on se kiintolevyllä."
+LOCAL19="32-bittinen Live-järjestelmä mahdollistaa chrootin vain 32-bittisiin järjestelmiin."
+LOCAL20="64-bittinen Live-järjestelmä mahdollistaa chrootin 32- ja 64-bittisiin järjestelmiin."
+LOCAL21="Jos haluat vaihtaa pääkäyttäjän (admin) salasanan chroot-ympäristössä, suorita komento:"
+LOCAL22="Jos haluat vaihtaa käyttäjän salasanan chroot-ympäristössä, suorita komento:"
+LOCAL23="on voimassa oleva käyttäjänimi, joka on olemassa chrootoidussa kiintolevyjärjestelmässä."
+LOCAL24="Korjaaksesi rikkoutuneita paketteja Debian- ja Ubuntu-pohjaisissa Linux-jakeluissa chroot-ympäristössä, suorita yksinkertaisesti APT-paketinhallinta."
+LOCAL25="Jos haluat korjata rikkinäiset paketit RPM-pohjaisissa Linux-jakeluissa, kuten Fedora, Mageia, OpenMandrive, OpenSUSE, ROSA, chroot-ympäristössä, suorita RPM-, YUM- tai Zypper-pakettien hallinta."
+LOCAL26="Vastuuvapauslauseke"
+LOCAL27="Se toimii niin kuin se toimii, joten varmista, että minä, kirjoittaja, en anna mitään takeita siitä, että sovellus toimii ilman ongelmia. Sparky Chrooterin käyttö voi vahingoittaa käyttöjärjestelmää."
+LOCAL28="KÄYTTÄT SPARKY CHROOTERIA OMALLA VASTUULLASI!"
+LOCAL29="Tarkista Ohjeen Chroot-vaihtoehto saadaksesi tietoja chroot-komennosta."
+### sparky-chrooter.desktop-tiedosto käännetään myös
+# Name[fi]=Chrooter
+# Comment[fi]=Chroot Linux-pohjaiseen järjestelmään
+### sparky-chrooter-help.desktop-tiedosto käännetään myös
+# Name[fi]=Chrooter-ohje
+# Comment[fi]=Sparky Chrooter -pikaohje
