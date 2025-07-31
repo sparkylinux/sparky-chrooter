@@ -28,7 +28,7 @@ LOCAL21="Para mudar a senha do root (admin) no ambiente «chroot», execute o co
 LOCAL22="Para mudar a senha de um usário em um ambiente «chroot», execute o commando:"
 LOCAL23="é um nome de usuário válido o qual existe no sistema de arquivo do disco rígido que está sendo chrooted."
 LOCAL24="Para consertar pacotes em distribuições Linux baseadas em  Debian e Ubuntu, no  ambiente «chroot», simplesmente execute o gerenciador de pacotes o  APT."
-LOCAL25="Para consertar pacotes em distribuições Linux baseadas em RPM, tais como  Fedora, Mageia, OpenMandrive, OpenSUSE, ROSA, no ambiente  «chroot», simplesmente execute o gerenciador de pacotes o RPM, YUM ou Zypper."
+LOCAL25="Para consertar pacotes em distribuições Linux baseadas em RPM, tais como  Fedora, Mageia, OpenMandriva, OpenSUSE, ROSA, no ambiente  «chroot», simplesmente execute o gerenciador de pacotes o RPM, YUM ou Zypper."
 LOCAL26="Renúncia (Disclaimer)"
 LOCAL27="Isto funciona mesmo e deste jeito, assim esteja
 certo do queres fazer, o autor não dá nenhuma garantia de que esta aplicação vai funcionar sem problema algum. Usando Sparky Chrooter voce pode danificar o seu sistema operacional."

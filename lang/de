@@ -1,0 +1,39 @@
+# German localization file for Sparky Chrooter (aktualisiert 31.07.2025)
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/13
+# Under the GNU GPL v2
+# Last update 2018/08/04 by pavroo
+LOCAL1="Partitionen"
+LOCAL2="Größe"
+LOCAL3="Ja"
+LOCAL4="Nein"
+LOCAL5="Schließen"
+LOCAL6="Sparky Chrooter"
+LOCAL7="Sparky Chrooter funktioniert nur in einer Live-Umgebung!\n\nWird jetzt beendet ..."
+LOCAL8="Bitte wählen Sie eine Partition aus, auf die Sie chrooten möchten.\nEs muss eine gültige ROOT-Partition mit Linux-Dateisystem sein. Anschließend können Sie auch eine separate BOOT-Partition wählen, wenn Sie eine solche haben.\n\nLesen Sie die Hilfe zur Chrooter-Datei, welche sich im Untermenü Hilfe befindet, wenn Sie mehr Informationen über die Anwendung benötigen."
+LOCAL9="Beenden OHNE Änderungen"
+LOCAL10="Chrooter wird jetzt beendet."
+LOCAL11="Haben Sie eine separierte BOOT-Partition, welche auch gemountet werden muss?"
+LOCAL12="Bitte wählen Sie die BOOT-Partition aus."
+LOCAL13="Dies ist keine Linux-Partition.\n\nVersuchen Sie es erneut. Wird beendet ..."
+LOCAL14="Dies ist keine Linux-Boot-Partition.\n\nVersuchen Sie es erneut. Wird beendet ..."
+LOCAL15="Halten Sie das Fenster offen, wenn Sie noch chrooted sind!\n\nSchließen Sie es, wenn Sie Ihre Arbeit in der chrooted Umgebung beendet haben, um es danach zu bereinigen!"
+LOCAL16="Sparky Chrooter-Schnellhilfe"
+LOCAL17="Sparky Chrooter ist ein Skript, welches Ihnen ermöglicht, das aktuelle Root-Verzeichnis des Live-Systems auf ein Root-Verzeichnis einer installierten Linux-Distribution zu chrooten (engl. change root)."
+LOCAL18="Chrooting ermöglicht Ihnen, eine defekte Linux-Distribution zu reparieren, Passwörter von Benutzern zu ändern, beschädigte Pakete zu reparieren etc. Stellen Sie sicher, dass Sie die richtige Partition wählen, welche das Root-Dateisystem Ihrer Linux-Distribution enthält. Das Skript ermöglicht Ihnen, auch eine separierte BOOT-Partition zu wählen, wenn Sie eine solche auf dem Festplattenlaufwerk haben."
+LOCAL19="Das 32-Bit-Live-System ermöglicht Ihnen, nur auf 32-Bit-Systeme zu chrooten."
+LOCAL20="Das 64-Bit-Live-System ermöglicht Ihnen, auf 32- und 64-Bit-Systeme zu chrooten."
+LOCAL21="Um das Root-Passwort (Admin) in einer chroot-Umgebung zu ändern, führen Sie den Befehl aus:"
+LOCAL22="Um ein Benutzerpasswort in der chroot-Umgebung zu ändern, führen Sie den den Befehl aus:"
+LOCAL23="ist ein gültiger Benutzername, welcher in dem chrooted Festplattenlaufwerksystem vorhanden ist."
+LOCAL24="Um beschädigte Pakete auf Debian- und Ubuntu-basierten Linux-Distributionen in der chroot-Umgebung zu reparieren, führen Sie einfach den APT-Paketmanager aus."
+LOCAL25="Um beschädigte Pakete auf RPM-basierten Linux-Distributionen, wie etwa Fedora, Mageia, OpenMandriva, OpenSUSE, ROSA, in der chroot-Umgebung zu reparieren, führen Sie einfach den RPM-, YUM- oder Zypper-Paketmanager aus."
+LOCAL26="Disclaimer"
+LOCAL27="Es funktioniert, wie es funktioniert, so stellen Sie sicher, dass ich, der Autor, keinerlei Garantie gebe, dass die Anwendung ohne Probleme funktioniert. Die Verwendung von Sparky Chrooter kann Ihr Betriebssystem beschädigen."
+LOCAL28="SIE VERWENDEN SPARKY CHROOTER AUF EIGENE GEFAHR!"
+LOCAL29="Prüfen Sie die Hilfe zur Chroot-Option, um Informationen über den Befehl chroot zu erhalten."
+### sparky-chrooter.desktop file to be translated too
+# Name[de_DE]=Chrooter
+# Comment[de_DE]=Chroot auf ein Linux-basiertes System
+### sparky-chrooter-help.desktop file to be translated too
+# Name[de_DE]=Chrooter-Hilfe
+# Comment[de_DE]=Sparky Chrooter-Schnellhilfe

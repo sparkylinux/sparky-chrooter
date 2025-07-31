@@ -1,12 +1,14 @@
 #!/bin/bash
 
 # Created by Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/08/29
-# Copyright 2015-2024 Under the GNU GPL2 License
-# Last update 2024/07/29
+# Copyright 2015-2025 Under the GNU GPL2 License
+# Last update 2025/07/31
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-chrooter"
-if [ "`cat /etc/default/locale | grep LANG= | grep el`" != "" ]; then
+if [ "`cat /etc/default/locale | grep LANG= | grep de`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep LANG= | grep el`" != "" ]; then
 . $DEFLOCDIR/el
 elif [ "`cat /etc/default/locale | grep LANG= | grep es`" != "" ]; then
 . $DEFLOCDIR/es
